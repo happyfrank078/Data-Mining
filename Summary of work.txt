@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Statistical Learning - Summary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0 20px;
+            background-color: #f4f4f4;
+        }
+        header, footer {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 5px 0;
+        }
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        section {
+            background: white;
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        code {
+            background-color: #eee;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Summary: An Introduction to Statistical Learning</h1>
+        <p>Compiled by Happy FRANK</p>
+    </header>
+
+    <section>
+        <h2>Book Overview</h2>
+        <p><em>An Introduction to Statistical Learning</em> offers a comprehensive yet accessible guide to the principles and applications of statistical learning. It emphasizes applications over theory and includes practical Python labs.</p>
+    </section>
+
+    <section>
+        <h2>Table of Contents</h2>
+        <nav>
+            <ul>
+                <li><a href="#chapter1">1. Introduction</a></li>
+                <li><a href="#chapter2">2. Linear Regression</a></li>
+                <li><a href="#chapter3">3. Classification</a></li>
+                <li><a href="#chapter4">4. Resampling Methods</a></li>
+                <li><a href="#chapter5">5. Linear Model Selection and Regularization</a></li>
+                <li><a href="#chapter6">6. Tree-Based Methods</a></li>
+                <li><a href="#chapter7">7. Support Vector Machine</a></li>
+                <li><a href="#chapter8">8. Deep Learning</a></li>
+                <li><a href="#chapter9">9. Unsupervised Learning</a></li>
+                <li><a href="#chapter10">10. Text Mining</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section id="chapter1">
+        <h2>1. Introduction</h2>
+        <p>Introduces statistical learning, differentiates between supervised and unsupervised learning, and illustrates concepts with real-world datasets.</p>
+        <p><a href="https://github.com/happyfrank078/Lab/blob/main/01-introduction.ipynb">View Notebook</a></p>
+    </section>
+
+    <section id="chapter2">
+        <h2>2. Linear Regression</h2>
+        <p>Details simple and multiple linear regression. Emphasizes interpretation, model assessment, and comparison with k-NN.</p>
+        <p><a href="https://github.com/happyfrank078/Lab/blob/main/02-linear-regression.ipynb">View Notebook</a></p>
+    </section>
+
+    <section id="chapter3">
+        <h2>3. Classification</h2>
+        <p>Covers logistic regression, LDA, QDA, naive Bayes, and k-NN for classification tasks.</p>
+        <p><a href="https://github.com/happyfrank078/Lab/blob/main/03-classification.ipynb">View Notebook</a></p>
+    </section>
+
+    <section id="chapter4">
+        <h2>4. Resampling Methods</h2>
+        <p>Introduces cross-validation, LOOCV, k-fold CV, and the bootstrap for estimating prediction error.</p>
+        <p><a href="https://github.com/happyfrank078/Lab/blob/main/04-resampling.ipynb">View Notebook</a></p>
+    </section>
+
+    <section id="chapter5">
+        <h2>5. Linear Model Selection and Regularization</h2>
+        <p>Discusses best subset selection, stepwise selection, ridge regression, the lasso, PCR, and PLS.</p>
+        <p><a href="https://github.com/happyfrank078/Lab/blob/main/05-regularization.ipynb">View Notebook</a></p>
+    </section>
+
+    <section id="chapter6">
+        <h2>6. Tree-Based Methods</h2>
+        <p>Explains decision trees, bagging, random forests, boosting, and Bayesian additive regression trees.</p>
+        <p><a href="https://github.com/happyfrank078/Lab/blob/main/06-tree-methods.ipynb">View Notebook</a></p>
+    </section>
+
+    <section id="chapter7">
+        <h2>7. Support Vector Machine</h2>
+        <p>Introduces maximal margin classifier, support vector classifier, and kernelized support vector machines.</p>
+        <p><a href="https://github.com/happyfrank078/Lab/blob/main/07-svm.ipynb">View Notebook</a></p>
+    </section>
+
+    <section id="chapter8">
+        <h2>8. Deep Learning</h2>
+        <p>Covers neural networks, CNNs, RNNs, dropout, backpropagation, and tuning. Includes use cases for image and document classification.</p>
+        <p><a href="https://github.com/happyfrank078/Lab/blob/main/08-deep-learning.ipynb">View Notebook</a></p>
+    </section>
+
+    <section id="chapter9">
+        <h2>9. Unsupervised Learning</h2>
+        <p>Details PCA, K-means, hierarchical clustering, and matrix completion techniques.</p>
+        <p><a href="https://github.com/happyfrank078/Lab/blob/main/09-unsupervised.ipynb">View Notebook</a></p>
+    </section>
+
+    <section id="chapter10">
+        <h2>10. Text Mining</h2>
+        <p>Explores text classification, sentiment analysis, document clustering, and word embedding using NLP techniques.</p>
+        <p><a href="https://github.com/happyfrank078/Lab/blob/main/10-text-mining.ipynb">View Notebook</a></p>
+    </section>
+
+    <section>
+        <h2>Algorithms by Task</h2>
+        <h3>Regression</h3>
+        <ul>
+            <li>Linear Regression</li>
+            <li>Ridge Regression</li>
+            <li>Lasso</li>
+            <li>Principal Components Regression</li>
+            <li>Neural Networks</li>
+        </ul>
+
+        <h3>Classification</h3>
+        <ul>
+            <li>Logistic Regression</li>
+            <li>Linear Discriminant Analysis</li>
+            <li>Quadratic Discriminant Analysis</li>
+            <li>Naive Bayes</li>
+            <li>Support Vector Machine</li>
+            <li>K-Nearest Neighbors</li>
+        </ul>
+
+        <h3>Unsupervised Learning</h3>
+        <ul>
+            <li>Principal Components Analysis (PCA)</li>
+            <li>K-Means Clustering</li>
+            <li>Hierarchical Clustering</li>
+            <li>Matrix Completion</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Happy FRANK | Statistical Learning Summary</p>
+    </footer>
+</body>
+</html>
